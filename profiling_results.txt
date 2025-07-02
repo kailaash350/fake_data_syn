@@ -1,0 +1,28 @@
+         4537696 function calls (4446889 primitive calls) in 5.534 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1612 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    5.534    5.534 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\fake_data_generator.py:502(run_with_profiling)
+        3    0.001    0.000    2.816    0.939 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\fake_data_generator.py:433(load_data_to_mysql)
+       30    0.000    0.000    2.745    0.091 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\util\_decorators.py:325(wrapper)
+       30    0.000    0.000    2.745    0.091 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\core\generic.py:2892(to_sql)
+       30    0.000    0.000    2.744    0.091 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\io\sql.py:748(to_sql)
+       30    0.000    0.000    2.585    0.086 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\io\sql.py:1956(to_sql)
+       30    0.001    0.000    2.308    0.077 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\io\sql.py:1555(insert_records)
+       30    0.010    0.000    2.307    0.077 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\io\sql.py:1084(insert)
+        3    0.007    0.002    2.289    0.763 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\fake_data_generator.py:402(generate_data_for_table)
+       30    0.006    0.000    2.242    0.075 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\pandas\io\sql.py:1015(_execute_insert_multi)
+       30    0.000    0.000    2.006    0.067 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\engine\base.py:1368(execute)
+       30    0.000    0.000    2.006    0.067 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\elements.py:506(_execute_on_connection)
+       30    0.001    0.000    2.006    0.067 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\engine\base.py:1585(_execute_clauseelement)
+     1000    0.053    0.000    1.503    0.002 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\fake_data_generator.py:175(generate_home_loan_record)
+       30    0.000    0.000    1.360    0.045 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\elements.py:668(_compile_w_cache)
+       30    0.000    0.000    1.357    0.045 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\elements.py:309(_compiler)
+       30    0.000    0.000    1.357    0.045 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\compiler.py:1338(__init__)
+       30    0.000    0.000    1.357    0.045 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\compiler.py:824(__init__)
+       30    0.000    0.000    1.356    0.045 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\compiler.py:911(process)
+ 62030/30    0.069    0.000    1.356    0.045 C:\Users\kaila\PycharmProjects\fake_data_app_to_mysql\.venv\Lib\site-packages\sqlalchemy\sql\visitors.py:131(_compiler_dispatch)
+
+
